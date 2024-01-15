@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add some styling to the links for better visibility */
+a {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  border: 1px solid #0066cc;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #0066cc;
+  color: #fff;
+}

@@ -1,0 +1,28 @@
+body {
+	background-image:url("https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+}
+body{
+	font-family: 'Arial', sans-serif;
+	background-color: powderblue;
+	margin:0;
+	padding:300px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	padding: 12px 20px;
+	margin: 5px;
+	border: 2px solid #3498db;
+	border-radius: 5px;
+	color: #3498db;
+	background-color: white;
+	display: inline-block;
+	
+	
+}
+
+a:hover {
+	background-color: #3498db;
+	color: #ffffff;
+}
