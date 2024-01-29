@@ -47,7 +47,7 @@ public class PlayListController
 	  {
 		  List<Playlist> allPlaylists=palylistService.fetchAllPlaylists();
 		  model.addAttribute("allPlaylists",allPlaylists);
-		  return "displaypalylists";
+		  return "displayplaylists";
 	  }
 	  
 }
