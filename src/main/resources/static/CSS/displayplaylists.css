@@ -1,0 +1,45 @@
+/* dispalySong.css */
+
+/* Style for the table */
+table {
+  margin-top:50px;
+  width: 100%;
+  border-spacing: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Style for table headers */
+th {
+  
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style for table cells */
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+/* Style for alternating row colors */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style for audio controls */
+audio {
+  width: 100%;
+}
+
+/* Style for the iframe */
+iframe {
+  height: 50px;
+  width: 100px;
+}
+
+/* Hover effect for table rows */
+tbody tr:hover {
+  background-color: #ddd;
+}

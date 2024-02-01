@@ -1,41 +1,51 @@
+body{
+	background-image:url("")
+}
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 20px;
+  background-color: #f8f9fa; /* Slightly lighter background */
+  margin-top: 200px;
+  
 }
 
 form {
   background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 10px; /* Increased border radius for a softer look */
+  box-shadow: 0 2px 4px rgba(0, 0, 0.0, 0.1); /* Adjusted box shadow for depth */
+  max-width: 400px; /* Limited maximum width for better readability */
+  margin: 0 auto; /* Center the form horizontally */
 }
 
 label {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 12px; /* Slightly increased margin bottom for better separation */
+  font-weight: bold; /* Added bold font weight for labels */
 }
 
 input[type="text"] {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 16px;
+  width: calc(100% - 16px); /* Adjusted width to account for padding */
+  padding: 10px;
+  margin-bottom: 20px; /* Increased margin bottom for better spacing */
+  border: 1px solid #ccc; /* Added border for input fields */
+  border-radius: 6px;
   box-sizing: border-box;
 }
 
 input[type="checkbox"] {
-  margin-right: 8px;
+  margin-right: 10px; /* Slightly reduced margin for checkboxes */
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
+  background-color: #28a745; /* Changed button color to green */
   color: #fff;
-  padding: 10px 15px;
+  padding: 12px 20px; /* Increased padding for better clickability */
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
   cursor: pointer;
+  font-size: 16px; /* Increased font size for better visibility */
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #218838; /* Darker shade of green on hover */
 }

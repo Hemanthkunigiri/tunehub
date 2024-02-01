@@ -1,35 +1,49 @@
+
+/* Style for the body */
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  padding: 20px;
-  background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 60px;
+    padding: 0;
+    
 }
 
+/* Style for the header */
 h1 {
-  color: #333;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    
 }
 
-a {
-  text-decoration: none;
-  color: #0066cc;
+/* Style for the navigation bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+     border-radius:48px;
 }
 
-a:hover {
-  text-decoration: underline;
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-/* Add some styling to the links for better visibility */
-a {
-  display: inline-block;
-  margin-bottom: 8px;
-  padding: 8px 12px;
-  border: 1px solid #0066cc;
-  border-radius: 4px;
-  background-color: #fff;
-  transition: background-color 0.3s ease;
+.navbar ul li {
+    float: left;
+    list-style: none;
+    padding:5px 50px;
 }
 
-a:hover {
-  background-color: #0066cc;
-  color: #fff;
+.navbar ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 55px;
+    text-decoration: none;
 }
+
+.navbar ul li a:hover {
+    background-color: #555;
+}
+

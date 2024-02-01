@@ -1,27 +1,45 @@
 
+
+/* Style for the whole body */
 body {
-  font-family: Arial, sans-serif; 
-  margin: 20px; 
-  padding:300px;
-  text-align:center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding: 0;
+    gap:3rem;
+    margin-top: 3rem;
 }
 
+/* Style for the header */
 h1 {
-  color: #333;
+    text-align: center;
+    color: #333;
 }
 
-a {
-  text-decoration: none; 
-  padding: 5px 10px; 
-  margin-right: 10px;
-  border: 1px solid #333;
-  color: #fff; 
-  background-color: #007bff; 
-  border-radius: 5px; 
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10rem;
 }
 
-a:hover {
-  background-color: #0056b3;
-
+table th,
+table td {
+    padding: 8px;
+    text-align: center;
 }
 
+table th {
+    background-color: grey;
+    color: #fff;
+    text-align:center;
+}
+
+table td {
+    border-bottom: 2px solid #ddd;
+}
+
+/* Style for audio controls */
+audio {
+    width: 100%;
+}
